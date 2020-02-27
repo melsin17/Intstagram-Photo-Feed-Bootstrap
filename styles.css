@@ -16,6 +16,7 @@ div.post{
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10px;
+    
 }
 div.post img{
     width: 100%;
@@ -26,13 +27,14 @@ div.post .post-header div:first-child{
 }
 div.post .post-header div:last-child{
     display: inline-block;
-    width: 20%;
     text-align: right;
     color: gray;
+    width: 20px;
 }
 div.post h2, div.post p, div.post span{
     padding: 10px;
     margin: 0;
+    
 }
 div.post 
 }
