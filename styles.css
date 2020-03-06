@@ -1,6 +1,8 @@
-body{
-    background: #BDBDBD;
+body div .navbar-brand {
     margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    
 }
 header{
     background: white;

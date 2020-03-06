@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
 		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</link>
-    
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+
 
 
 	<title>InstagramPhotoFeedBootstrap</title>
@@ -20,29 +21,52 @@
 
 	<div class="container-fluid bg-dark">
 		<nav class="navbar navbar-expand-lg navbar-light bg-white font-italic font-weight-bolder">
-			<a class="navbar-brand" href="#"><button style="font-size:24px"><i class="fab fa-instagram"></i></button>
+			<a class="navbar-brand" href="#"><button style="font-size:24px"><i class="fab fa-instagram" ></i></button>
 				</i>Instagram</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
 
 
 
 
-				</ul>
-				<ul class="form-inline my-2 my-lg-0">
+		</ul>
+		<ul class="form-inline my-2 my-lg-0">
 
-					<li class="nav-item dropdown">
-					</li>
-					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Create a new post</button>
-
-			</div>
+			<li class="nav-item dropdown">
 			</li>
-			<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-cogs"></i></button>
-			</ul>
+        <div class="mybutton">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Create a new post</button>
+                <div class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+	</div>
+	</li>
+	<button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i class="fas fa-cogs"></i></button>
+	</ul>
 	</div>
 	</nav>
 	<div>
